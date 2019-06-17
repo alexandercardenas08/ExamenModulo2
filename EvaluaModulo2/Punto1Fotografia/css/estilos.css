@@ -1,0 +1,19 @@
+body {
+	margin: 20px;
+	background-color: black;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+}
+
+
+
+header h1{
+	margin-bottom: 0px;
+  background-color:  #5b7989;
+	margin: 3px;
+	border-radius: 10px 10px 0 0;
+}
+
+ h1{
+  text-shadow: 1px 2px 3px #02010a;
+}
