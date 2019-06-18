@@ -7,13 +7,31 @@ body {
 
 
 
-header h1{
+header {
 	margin-bottom: 0px;
   background-color:  #5b7989;
 	margin: 3px;
 	border-radius: 10px 10px 0 0;
+  margin-bottom: 0px;
+  height: 70px;
+  padding: 20px;
+  margin-top: 2px;
+
 }
 
  h1{
   text-shadow: 1px 2px 3px #02010a;
+}
+
+header navbar{
+  height: 60%;
+  float: right;
+  padding: 0, 2% 2% 0 0;
+  margin-top:  -7%;
+  font-size: 25px;
+
+}
+
+a{
+  color: white;
 }
