@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+body
+{
+  font-family: 'Dancing Script';
+  background-color: #02010a;
+}
+
+/*version desktop */
+#contenido
+{ width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  order: 0;
+}
+
+header h1
+{
+	color: white;
+}
+
+.item
+{
+  font-size: 23px;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+
+section #img-principal
+{
+  width: 100%;
+  height: 400px;
+  background-color: #82c3a6;
+  order: 2;
+}
+
+
+
+section #img-izquierda
+{
+  width: 50%;
+  height: 350px;
+  background-color: #d5c75f;
+  float: left;
+  order: 3;
+}
+section #img-izquierda img
+{
+margin-left: 40px;
+width: 390px;
+height: 260px;
+margin-top: 20px;
+
+
+}
+
+
+
+section #img-derecha
+{
+  width: 50%;
+  height: 350px;
+  background-color: #d5c75f;
+  float: right;
+  order: 4;
+}
+section #img-derecha img
+{
+margin-left: 10px;
+width: 400px;
+height: 260px;
+margin-top: 20px;
+
+
+}
+
+
+
+.img-link{
+  text-decoration: none;
+  color: black;
+}
+
+
+#img-principal img
+{
+  height: 90%;
+  float: left;
+  width: 730px;
+  margin: 2% 0 0 9%;
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+}
+
+
+footer
+{
+  width: 100%;
+  height: 170px;
+  clear: both;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  order: 5;
+}
+
+
+.contenido article {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 20px;
+}
+
+
+.contenido {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+
+.img-principal, .img-izquierda, .img-derecha {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+.contenido  {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+
+@media (min-width: 900px) {
+	.img-principal {
+		width: 900px;
+	}
+
+	.img-izquierda {
+		width: 75%;
+	}
+
+}
